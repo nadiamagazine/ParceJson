@@ -1,0 +1,5 @@
+Let’s start with a non-complex first thing.
+Can you make an app that displays the institution name, retrieved from
+the https://api.banno.com/institutions/5db40b7a-ee76-42b3-acb9-eb7045011c2a endpoint?
+I recommend using the Ktor library, as that’s the library we are commonly
+using to make HTTP requests. And kotlinx serialization for decoding the JSON

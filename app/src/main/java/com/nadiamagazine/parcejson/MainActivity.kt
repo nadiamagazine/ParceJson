@@ -18,8 +18,8 @@ class MainActivity : AppCompatActivity() {
         val text = findViewById<TextView>(R.id.show_name)
 
         lifecycleScope.launch {
-            val name = viewModel.getInstitutionName()
-            text.text = name.name
+            val name = viewModel.getSpeciesName()
+            text.text = name.listOfFish
         }
     }
 }
